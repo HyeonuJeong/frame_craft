@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='framecraft',
-    version='0.0.3',
+    version='0.2.1',
     description='by hyeonwoo jeong',
     author='hyeonu',
     author_email='hyeonu4945@gmail.com',

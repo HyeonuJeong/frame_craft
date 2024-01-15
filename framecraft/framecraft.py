@@ -56,6 +56,7 @@ def extract_frames(video_path, frames_dir, overwrite=False, start=-1, end=-1, ev
     while_safety = 0  # a safety counter to ensure we don't enter an infinite while loop (hopefully we won't need it)
     saved_count = 0  # a count of how many frames we have saved
 
+    print(f'save here! {frames_dir}')
     while frame < end:  # lets loop through the frames until the end
 
         _, image = capture.read()  # read an image from the capture
