@@ -4,7 +4,7 @@ Framecraft is a library that translates video into frame images in multiprocessi
 
 ## 🛠️ installation 
 ```
-pip install frame craft
+pip install framecraft
 ```
 
 ## 📚 example
