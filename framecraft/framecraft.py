@@ -56,7 +56,7 @@ def extract_frames(video_path, frames_dir, overwrite=False, start=-1, end=-1, ev
     while_safety = 0  # a safety counter to ensure we don't enter an infinite while loop (hopefully we won't need it)
     saved_count = 0  # a count of how many frames we have saved
 
-    print(f'save here! {frames_dir}')
+    
     while frame < end:  # lets loop through the frames until the end
 
         _, image = capture.read()  # read an image from the capture
@@ -127,7 +127,7 @@ def capture(video_path, frames_dir, overwrite=False, every=1, chunk_size=1000):
     end_time = time.time()
     elapsed_time = end_time - start_time
     print(f'\n elapsed_time : {elapsed_time:.2f}')
-
+    print(f'save here! {frames_dir}')
     return os.path.join(frames_dir, video_filename)  # when done return the directory containing the frames
 
 
