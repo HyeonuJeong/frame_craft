@@ -1,3 +1,3 @@
 from framecraft import capture
 
-__verison__='0.2.1'
+__verison__='0.2.2'
